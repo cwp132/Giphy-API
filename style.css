@@ -1,0 +1,49 @@
+.container {
+    margin: 20px, 0px, 0px, 500px;
+    width: 100%;
+    height: 60px;
+    background-color: grey;
+}
+
+html {
+    background-color: grey;
+}
+
+body {
+    background-color: grey;
+}
+
+#gif-head {
+    text-align: center;
+}
+
+#giph-head {
+    font-size: 100px;
+    background-color: gray;
+}
+
+#button-input {
+    height: 600px;
+    width: 1200px;
+    background-color: gray;
+    margin: 10px;
+
+}
+
+#gifs {
+    height: 600px;
+    width: 1200px;
+    background-color: gray;
+    margin: 10px;
+
+}
+
+#text-input {
+    /* margin: 20px 10px 10px 15px; */
+
+}
+
+form {
+    margin: 20px 10px 10px 15px;
+
+}
