@@ -26,7 +26,7 @@ function populateButtons(searchArray, classToAdd, areaToAddTo) {
             url: queryURL,
             method: "GET"
         }).then(function (response) {
-            for (var i = 0; i < response.data.length; i++) {
+            for (var i = 0; i < 10; i++) {
                 var searchDiv = $('<div class="search-item">');
                 var rating = response.data[i].rating;
                 var p = $('<p>').text('Rating: ' + rating);
